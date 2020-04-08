@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #282a36;
+}
+
+header {
+    padding: 32px;
+    border-bottom: 1px solid #333;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+header nav {
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 16px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+header nav a:hover {
+    color: #50fa7b;
+    transition: color 250ms;
+}
