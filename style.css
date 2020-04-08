@@ -80,3 +80,18 @@ header {
 footer {
     margin-bottom: 32px;
 }
+
+/* CARDS */
+
+.cards {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #7159c1;
+}
+
+.card_image-container img {
+    width: 100%;
+}
