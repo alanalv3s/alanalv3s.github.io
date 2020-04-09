@@ -136,6 +136,7 @@ footer {
     height: 100%;
     position: fixed;
     top: 0;
+    opacity: 0;
 }
 
 .modal {
@@ -144,6 +145,7 @@ footer {
     height: 90%;
     margin: 5vh auto;
     position: relative;
+    visibility: hidden;
 }
 
 .modal .close-modal {
@@ -152,4 +154,11 @@ footer {
     right: 8px;
     top: 8px;
     cursor: pointer;
+}
+
+/*  MODAL.ACTIVE  */
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
 }
