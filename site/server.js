@@ -3,13 +3,19 @@ const nunjucks = require('nunjucks')
 
 const server = express()
 
+server.use(express.static('public'))
+
 server.set("view engine", "html")
 nunjucks.configure("views", {
     express: server
 })
 
 server.get("/", function(req, res) {
-    return res.send("Hi, how's going?")
+    return res.render("index")
+})
+
+server.get("/portfolio", function(req, res) {
+    return res.render("portfolio")
 })
 
 server.listen(5000, function() {
