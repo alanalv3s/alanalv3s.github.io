@@ -187,6 +187,7 @@ iframe {
     font-size: 18px;
     line-height: 28px;
     font-weight: normal;
+    opacity: 0.8;
 }
 
 .notfound p a{
