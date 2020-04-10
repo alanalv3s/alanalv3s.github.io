@@ -1,121 +1,112 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
-    <link rel="manifest" href="/assets/site.webmanifest">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <title>Alan Alves</title>
-</head>
-<body>
-    <header>
-        <nav class="links">
-        <a href="/">Sobre</a>
-        <a href="/portfolio">Portfolio</a>
-        </nav>
-    </header>
+{% extends "layout.html" %}
 
-    <section class="title">
-        <h1>Portfolio</h1>
-    </section>
+{% block head %}
 
-    <main class="cards">
-        <div class="card" id="DiXbJL3iWVs">
-            <div class="card_img-container">
-                <img src="https://img.youtube.com/vi/DiXbJL3iWVs/maxresdefault.jpg" height="200px" alt="Vídeo-Aula">
-            </div>
-            <div class="card_content">
-                <p>Inicando no Node.js</p>
-            </div>
-            <div class="card_info">
-                <p>1h e 33 min</p>
-                <p class="card_price">Free</p>
-            </div>
+<title>Portfolio - Alan Alves</title> 
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+{% endblock %}
+
+{% block content %}
+
+<section class="title">
+    <h1>Portfolio</h1>
+</section>
+
+<main class="cards">
+    <div class="card" id="DiXbJL3iWVs">
+        <div class="card_img-container">
+            <img src="https://img.youtube.com/vi/DiXbJL3iWVs/maxresdefault.jpg" height="200px" alt="Vídeo-Aula">
         </div>
-
-        <div class="card" id="DiXbJL3iWVs">
-            <div class="card_img-container">
-                <img src="https://img.youtube.com/vi/DiXbJL3iWVs/maxresdefault.jpg" height="200px" alt="Vídeo-Aula">
-            </div>
-            <div class="card_content">
-                <p>Inicando no Node.js</p>
-            </div>
-            <div class="card_info">
-                <p>1h e 33 min</p>
-                <p class="card_price">Free</p>
-            </div>
+        <div class="card_content">
+            <p>Inicando no Node.js</p>
         </div>
-
-        <div class="card" id="DiXbJL3iWVs">
-            <div class="card_img-container">
-                <img src="https://img.youtube.com/vi/DiXbJL3iWVs/maxresdefault.jpg" height="200px" alt="Vídeo-Aula">
-            </div>
-            <div class="card_content">
-                <p>Inicando no Node.js</p>
-            </div>
-            <div class="card_info">
-                <p>1h e 33 min</p>
-                <p class="card_price">Free</p>
-            </div>
-        </div>
-
-        <div class="card" id="DiXbJL3iWVs">
-            <div class="card_img-container">
-                <img src="https://img.youtube.com/vi/DiXbJL3iWVs/maxresdefault.jpg" height="200px" alt="Vídeo-Aula">
-            </div>
-            <div class="card_content">
-                <p>Inicando no Node.js</p>
-            </div>
-            <div class="card_info">
-                <p>1h e 33 min</p>
-                <p class="card_price">Free</p>
-            </div>
-        </div>
-
-        <div class="card" id="DiXbJL3iWVs">
-            <div class="card_img-container">
-                <img src="https://img.youtube.com/vi/DiXbJL3iWVs/maxresdefault.jpg" height="200px" alt="Vídeo-Aula">
-            </div>
-            <div class="card_content">
-                <p>Inicando no Node.js</p>
-            </div>
-            <div class="card_info">
-                <p>1h e 33 min</p>
-                <p class="card_price">Free</p>
-            </div>
-        </div>
-
-        <div class="card" id="DiXbJL3iWVs">
-            <div class="card_img-container">
-                <img src="https://img.youtube.com/vi/DiXbJL3iWVs/maxresdefault.jpg" height="200px" alt="Vídeo-Aula">
-            </div>
-            <div class="card_content">
-                <p>Inicando no Node.js</p>
-            </div>
-            <div class="card_info">
-                <p>1h e 33 min</p>
-                <p class="card_price">Free</p>
-            </div>
-        </div>
-
-    </main>
-
-    <div class="modal-overlay">
-        <div class="modal">
-            <a class="close-modal">
-                <i class="material-icons">close</i>
-            </a>
-
-            <div class="modal-content">
-                <iframe src="https://www.youtube.com.br/embed/DiXbJL3iWVs" frameborder="0"></iframe>
-            </div>
+        <div class="card_info">
+            <p>1h e 33 min</p>
+            <p class="card_price">Free</p>
         </div>
     </div>
 
+    <div class="card" id="DiXbJL3iWVs">
+        <div class="card_img-container">
+            <img src="https://img.youtube.com/vi/DiXbJL3iWVs/maxresdefault.jpg" height="200px" alt="Vídeo-Aula">
+        </div>
+        <div class="card_content">
+            <p>Inicando no Node.js</p>
+        </div>
+        <div class="card_info">
+            <p>1h e 33 min</p>
+            <p class="card_price">Free</p>
+        </div>
+    </div>
+
+    <div class="card" id="DiXbJL3iWVs">
+        <div class="card_img-container">
+            <img src="https://img.youtube.com/vi/DiXbJL3iWVs/maxresdefault.jpg" height="200px" alt="Vídeo-Aula">
+        </div>
+        <div class="card_content">
+            <p>Inicando no Node.js</p>
+        </div>
+        <div class="card_info">
+            <p>1h e 33 min</p>
+            <p class="card_price">Free</p>
+        </div>
+    </div>
+
+    <div class="card" id="DiXbJL3iWVs">
+        <div class="card_img-container">
+            <img src="https://img.youtube.com/vi/DiXbJL3iWVs/maxresdefault.jpg" height="200px" alt="Vídeo-Aula">
+        </div>
+        <div class="card_content">
+            <p>Inicando no Node.js</p>
+        </div>
+        <div class="card_info">
+            <p>1h e 33 min</p>
+            <p class="card_price">Free</p>
+        </div>
+    </div>
+
+    <div class="card" id="DiXbJL3iWVs">
+        <div class="card_img-container">
+            <img src="https://img.youtube.com/vi/DiXbJL3iWVs/maxresdefault.jpg" height="200px" alt="Vídeo-Aula">
+        </div>
+        <div class="card_content">
+            <p>Inicando no Node.js</p>
+        </div>
+        <div class="card_info">
+            <p>1h e 33 min</p>
+            <p class="card_price">Free</p>
+        </div>
+    </div>
+
+    <div class="card" id="DiXbJL3iWVs">
+        <div class="card_img-container">
+            <img src="https://img.youtube.com/vi/DiXbJL3iWVs/maxresdefault.jpg" height="200px" alt="Vídeo-Aula">
+        </div>
+        <div class="card_content">
+            <p>Inicando no Node.js</p>
+        </div>
+        <div class="card_info">
+            <p>1h e 33 min</p>
+            <p class="card_price">Free</p>
+        </div>
+    </div>
+
+</main>
+
+<div class="modal-overlay">
+    <div class="modal">
+        <a class="close-modal">
+            <i class="material-icons">close</i>
+        </a>
+
+        <div class="modal-content">
+            <iframe src="https://www.youtube.com.br/embed/DiXbJL3iWVs" frameborder="0"></iframe>
+        </div>
+    </div>
+</div>
+
 <script src="scripts.js"></script>
-</body>
-</html>
+
+{% endblock %}

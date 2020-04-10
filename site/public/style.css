@@ -140,7 +140,7 @@ footer {
 }
 
 .modal {
-    background-color: white;
+    background-color: black;
     width: 90%;
     height: 90%;
     margin: 5vh auto;
@@ -148,7 +148,7 @@ footer {
 }
 
 .modal .close-modal {
-    color: black;
+    color: #ffffff;
     position: absolute;
     right: 8px;
     top: 8px;
