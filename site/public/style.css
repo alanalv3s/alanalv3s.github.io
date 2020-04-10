@@ -103,6 +103,7 @@ footer {
 
 .card {
     background-color: var(--color-blue);
+    display: grid;
 }
 
 .card_image-container img {
@@ -117,6 +118,7 @@ footer {
 .card_info {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
 }
 
 .card_price {

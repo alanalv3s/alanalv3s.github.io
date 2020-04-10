@@ -15,83 +15,21 @@
 </section>
 
 <main class="cards">
-    <div class="card" id="DiXbJL3iWVs">
-        <div class="card_img-container">
-            <img src="https://img.youtube.com/vi/DiXbJL3iWVs/maxresdefault.jpg" height="200px" alt="Vídeo-Aula">
-        </div>
-        <div class="card_content">
-            <p>Iniciando no Node.js</p>
-        </div>
-        <div class="card_info">
-            <p>1h e 33 min</p>
-            <p class="card_price">Free</p>
-        </div>
-    </div>
 
-    <div class="card" id="DiXbJL3iWVs">
+    {% for item in items %}
+    <div class="card" id="{{item.id}}">
         <div class="card_img-container">
-            <img src="https://img.youtube.com/vi/DiXbJL3iWVs/maxresdefault.jpg" height="200px" alt="Vídeo-Aula">
+            <img src="https://img.youtube.com/vi/{{item.id}}/maxresdefault.jpg" height="200px" alt="{{item.title}}">
         </div>
         <div class="card_content">
-            <p>Iniciando no Node.js</p>
+            <p>{{item.title}}</p>
         </div>
         <div class="card_info">
-            <p>1h e 33 min</p>
-            <p class="card_price">Free</p>
+            <p>{{item.duration}}</p>
+            <p class="card_price">{{item.price}}</p>
         </div>
     </div>
-
-    <div class="card" id="DiXbJL3iWVs">
-        <div class="card_img-container">
-            <img src="https://img.youtube.com/vi/DiXbJL3iWVs/maxresdefault.jpg" height="200px" alt="Vídeo-Aula">
-        </div>
-        <div class="card_content">
-            <p>Iniciando no Node.js</p>
-        </div>
-        <div class="card_info">
-            <p>1h e 33 min</p>
-            <p class="card_price">Free</p>
-        </div>
-    </div>
-
-    <div class="card" id="DiXbJL3iWVs">
-        <div class="card_img-container">
-            <img src="https://img.youtube.com/vi/DiXbJL3iWVs/maxresdefault.jpg" height="200px" alt="Vídeo-Aula">
-        </div>
-        <div class="card_content">
-            <p>Iniciando no Node.js</p>
-        </div>
-        <div class="card_info">
-            <p>1h e 33 min</p>
-            <p class="card_price">Free</p>
-        </div>
-    </div>
-
-    <div class="card" id="DiXbJL3iWVs">
-        <div class="card_img-container">
-            <img src="https://img.youtube.com/vi/DiXbJL3iWVs/maxresdefault.jpg" height="200px" alt="Vídeo-Aula">
-        </div>
-        <div class="card_content">
-            <p>Iniciando no Node.js</p>
-        </div>
-        <div class="card_info">
-            <p>1h e 33 min</p>
-            <p class="card_price">Free</p>
-        </div>
-    </div>
-
-    <div class="card" id="DiXbJL3iWVs">
-        <div class="card_img-container">
-            <img src="https://img.youtube.com/vi/DiXbJL3iWVs/maxresdefault.jpg" height="200px" alt="Vídeo-Aula">
-        </div>
-        <div class="card_content">
-            <p>Iniciando no Node.js</p>
-        </div>
-        <div class="card_info">
-            <p>1h e 33 min</p>
-            <p class="card_price">Free</p>
-        </div>
-    </div>
+    {% endfor %}
 
 </main>
 
