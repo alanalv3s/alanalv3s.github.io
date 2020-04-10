@@ -104,9 +104,10 @@ footer {
 .card {
     background-color: var(--color-blue);
     display: grid;
+    cursor: pointer;
 }
 
-.card_image-container img {
+.card_img-container img {
     width: 100%;
 }
 
@@ -201,4 +202,20 @@ iframe {
 .notfound a:hover {
     color: var(--color-green);
     transition: color 250ms;
+}
+
+/* FEATURED */
+
+.featured-sign.card_img-container {
+    position: relative;
+}
+
+.featured {
+    background: #f7d05f;
+    color: #111;
+    padding: 2px 8px;
+    position: absolute;
+    right: 5px;
+    border-radius: 16px;
+    top: -10px;
 }

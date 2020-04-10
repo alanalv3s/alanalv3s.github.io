@@ -18,8 +18,11 @@
 
     {% for item in items %}
     <div class="card" id="{{item.id}}">
-        <div class="card_img-container">
-            <img src="https://img.youtube.com/vi/{{item.id}}/maxresdefault.jpg" height="200px" alt="{{item.title}}">
+        <div class="card_img-container  {{  'featured-sign' if item.featured }}">
+            <img src="https://img.youtube.com/vi/{{item.id}}/maxresdefault.jpg" alt="{{item.title}}">
+            {% if item.featured %}
+                <div class="featured">Em alta</div>
+            {% endif%}
         </div>
         <div class="card_content">
             <p>{{item.title}}</p>
