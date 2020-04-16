@@ -1,2 +1,2 @@
-# Cursos
-Plataforma de cursos feita com HTML, CSS E Vanilla Javascript.
+# Portfolio
+Meu Portfolio com todos os meus projetos desenvolvidos.
