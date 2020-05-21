@@ -440,4 +440,8 @@ footer .social-body img {
     nav .active a, nav a:hover {
         border-radius: 0;
     }
+    footer .social-body img {
+        height: 70px;
+        width: 70px;
+    }
 }
