@@ -1,7 +1,7 @@
 @import "https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap";
 :root {
     --color-green: #53E4A4;
-    --color-blue: #6C7EFB;
+    --color-blue: #005bc296;
 }
 
 * {
@@ -207,22 +207,6 @@ iframe {
     transition: color 250ms;
 }
 
-/* FEATURED */
-
-.featured-sign.card_img-container {
-    position: relative;
-}
-
-.featured {
-    background: #f7d05f;
-    color: #111;
-    padding: 2px 8px;
-    position: absolute;
-    right: 5px;
-    border-radius: 16px;
-    top: -10px;
-}
-
 /*  VIDEO PAGE  */
 
 .video {
@@ -247,6 +231,6 @@ footer.links a {
 }
 
 footer img:hover {
-    box-shadow: 0px 0px 5px #53E4A4;
+    box-shadow: 0px 0px 8px #53E4A4;
     border-radius: 50%;
 }
