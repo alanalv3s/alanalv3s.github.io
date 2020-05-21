@@ -1,306 +1,43 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-    <title>Medicenter</title>
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="/assets/scritps.js"></script>
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+    <link rel="manifest" href="/assets/site.webmanifest">
+    <title>Alan Alves | Desenvolvedor</title>
+    <link rel="stylesheet" href="public/style.css">
 </head>
 
 <body>
     <header>
-        <div class="container">
-            <div class="logo">
-                <a href="/"><img src="assets/images/logo.png" alt="Medicenter Logo"></a>
-            </div>
-            <div class="menu">
-                <nav>
-                    <div class="menu-mobile" onclick="changeMenu()">
-                        <i class="material-icons">menu</i>
-                    </div>
-                    <ul class="list">
-                        <li class="active"><a href="">Home</a></li>
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">Departamentos</a></li>
-                        <li><a href="">Galeria</a></li>
-                        <li><a href="">Contato</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
+        <nav class="links">
+            <a href="/">Sobre</a>
+            <a href="/portfolio.html">Portfolio</a>
+        </nav>
     </header>
 
-    <section class="banner">
-        <div class="container column">
-            <div class="banner-headline">
-                <h1>Qualidade acima da média</h1>
-                <h2>Medicenter é a melhor escolha para a saúde de toda a sua família</h2>
-            </div>
-            <div class="banner-options">
-                <div class="card1">
-                    <div class="card-title">Emergência</div>
-                    <div class="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, corrupti!
-                        Tenetur ut tempora, mollitia officiis eveniet reprehenderit sunt modi.</div>
-                    <a href="">Contate agora</a>
-                </div>
-                <div class="card2">
-                    <div class="card-title">Cronograma</div>
-                    <div class="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id saepe nobis amet
-                        vitae eius. Non velit qui, earum, quo hic voluptate porro ad veniam.</div>
-                    <a href="">Saiba mais</a>
-                </div>
-                <div class="card3">
-                    <div class="card-title">Horário de Atendimento</div>
-                    <div class="card-hours-container column">
-                        <div class="card-hours">Segunda - Sexta <span>8:00 - 17:00</span></div>
-                        <div class="card-hours">Sábado <span>9:30 - 17:30</span></div>
-                        <div class="card-hours">Domingo <span>9:30 - 15:00</span></div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section id="profile">
+        <figure><img
+                src="https://avatars0.githubusercontent.com/u/56656415?s=460&u=fdaf70b72efe06a503eaa41592f6f6e5a2344c93&v=4">
+        </figure>
+        <figcaption>
+            <h1>Alan Alves</h1>
+            <h2>Analista de Suporte e Monitoramento NOC - <a href="https://www.estabil.is/"
+                    target="_blank">Estabilis</a></h2>
+            <p>Estudante de programação web, focado em se tornar um Desenvolvedor Full-Stack</p>
+        </figcaption>
     </section>
 
-    <section class="general">
-        <div class="container">
-            <section>
-                <div class="widget">
-                    <div class="widget-title">
-                        <div class="widget-title-text">Últimas Notícias</div>
-                        <div class="widget-title-bar"></div>
-                    </div>
-
-                    <div class="widget-body flex">
-                        <article class="news" title="Notícia">
-                            <a href="/">
-                                <div class="date">
-                                    <div class="posted-at">12 DEZ 12</div>
-                                    <div class="comments">2</div>
-                                </div>
-                                <div class="thumb">
-                                    <img src="assets/images/dr.jpg" alt="Imagem de doutor atendendo criança">
-                                </div>
-                                <div class="title">
-                                    Lorem ipsum dolor sit amat velum
-                                </div>
-                                <div class="resume">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, consectetur
-                                    totam.
-                                    Doloribus debitis dignissimos magnam, sunt nihil earum architecto possimus. Minus,
-                                    maxime. Cum totam facere porro in cumque quidem perferendis?
-                                </div>
-                            </a>
-                        </article>
-
-                        <article class="news">
-                            <a href="/">
-                                <div class="date">
-                                    <div class="posted-at">12 DEZ 12</div>
-                                    <div class="comments">2</div>
-                                </div>
-                                <div class="thumb">
-                                    <img src="assets/images/dr.jpg" alt="Imagem de doutor atendendo criança"
-                                        title="Doutor atentendo criança">
-                                </div>
-                                <div class="title">
-                                    Lorem ipsum dolor sit amat velum
-                                </div>
-                                <div class="resume">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, consectetur
-                                    totam.
-                                    Doloribus debitis dignissimos magnam, sunt nihil earum architecto possimus. Minus,
-                                    maxime. Cum totam facere porro in cumque quidem perferendis?
-                                </div>
-                            </a>
-                        </article>
-
-                        <article class="news">
-                            <a href="/">
-                                <div class="date">
-                                    <div class="posted-at">12 DEZ 12</div>
-                                    <div class="comments">2</div>
-                                </div>
-                                <div class="thumb">
-                                    <img src="assets/images/dr.jpg" alt="Imagem de doutor atendendo criança"
-                                        title="Doutor atentendo criança">
-                                </div>
-                                <div class="title">
-                                    Lorem ipsum dolor sit amat velum
-                                </div>
-                                <div class="resume">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, consectetur
-                                    totam.
-                                    Doloribus debitis dignissimos magnam, sunt nihil earum architecto possimus. Minus,
-                                    maxime. Cum totam facere porro in cumque quidem perferendis?
-                                </div>
-                            </a>
-                        </article>
-
-                        <article class="news">
-                            <a href="/">
-                                <div class="date">
-                                    <div class="posted-at">12 DEZ 12</div>
-                                    <div class="comments">2</div>
-                                </div>
-                                <div class="thumb">
-                                    <img src="assets/images/dr.jpg" alt="Imagem de doutor atendendo criança"
-                                        title="Doutor atentendo criança">
-                                </div>
-                                <div class="title">
-                                    Lorem ipsum dolor sit amat velum
-                                </div>
-                                <div class="resume">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, consectetur
-                                    totam.
-                                    Doloribus debitis dignissimos magnam, sunt nihil earum architecto possimus. Minus,
-                                    maxime. Cum totam facere porro in cumque quidem perferendis?
-                                </div>
-                            </a>
-                        </article>
-                    </div>
-            </section>
-
-            <aside>
-                <div class="widget">
-                    <div class="widget-title">
-                        <div class="widget-title-text">Departamentos</div>
-                        <div class="widget-title-bar"></div>
-                    </div>
-
-                    <div class="widget-body flex">
-                        <div class="department"></div>
-                        <div class="department"></div>
-                        <div class="department"></div>
-                        <div class="department"></div>
-                        <div class="department"></div>
-                        <div class="department"></div>
-                    </div>
-                </div>
-
-                <div class="widget">
-                    <div class="widget-title">
-                        <div class="widget-title-text">Marque Uma Consulta</div>
-                        <div class="widget-title-bar"></div>
-                    </div>
-                    <div class="widget-body">
-                        <div class="appointment-title">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae eius quam, velit esse,
-                            eum saepe ipsum labore sit obcaecati voluptatibus quisquam error deleniti sed laborum culpa
-                            quas alias voluptates veniam.
-                        </div>
-                        <div class="appointment-contact column">
-                            <div class="contact">
-                                <a href="tel:+"><i class="material-icons">call</i><span>Via telefone</span></a>
-                            </div>
-                            <div class="contact"><a href="mailto:"><i class="material-icons">email</i><span>Via
-                                        E-mail</span></a>
-                            </div>
-                            <div class="contact"><a href=""><i class="material-icons">import_contacts</i><span>Via
-                                        Formulário</span></a></div>
-                        </div>
-                    </div>
-                </div>
-            </aside>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container column">
-            <div class="f-menu">
-                <div class="f-card1">
-                    <a href="">
-                        <div class="card-title">Plano de Saúde</div>
-                        <div class="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, corrupti!
-                        </div>
-                    </a>
-                </div>
-                <div class="f-card2">
-                    <a href="">
-                        <div class="card-title">Registros médicos</div>
-                        <div class="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, corrupti!
-                        </div>
-                    </a>
-                </div>
-                <div class="f-card3">
-                    <a href="">
-                        <div class="card-title">Pagamento Online</div>
-                        <div class="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, corrupti!
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="f-contents">
-                <div class="f-content">
-                    <div class="widget">
-                        <div class="widget-title">
-                            <div class="widget-title-text">Clínica Medicenter</div>
-                            <div class="widget-title-bar"></div>
-                        </div>
-                        <div class="widget-body">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil deserunt aspernatur error.
-                                Omnis debitis rem officiis illo</p>
-                            <div class="adress">Clínica Medicenter</div>
-                            <div class="adress">Avenida Paulista, 1047<span>(11) 4758-7585</span></div>
-                            <div class="adress">Rua Augusta, 754<span>(11) 4560-9153</span></div>
-                            <div class="adress">São Paulo - Brasil<a
-                                    href="mailto:medicenter@mail.com">medicenter@mail.com</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="f-content">
-                    <div class="widget">
-                        <div class="widget-title">
-                            <div class="widget-title-text">Últimas postagens</div>
-                            <div class="widget-title-bar"></div>
-                        </div>
-                        <div class="widget-body">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum soluta amet doloribus
-                                deleniti minus perspiciatis quibusdam itaque.<br>
-                                <span>6 horas atrás</span></p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum soluta amet doloribus
-                                deleniti minus perspiciatis quibusdam itaque.<br>
-                                <span>8 horas atrás</span></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="f-content">
-                    <div class="widget">
-                        <div class="widget-title">
-                            <div class="widget-title-text">Redes sociais</div>
-                            <div class="widget-title-bar"></div>
-                        </div>
-                        <div class="social-body">
-                            <a href=""><img src="/assets/images/Facebook_5.svg" alt="Facebook" height="50"
-                                    width="50"></a>
-                            <a href=""><img src="/assets/images/Instagram_5.svg" alt="Instagram" height="50"
-                                width="50"></a>
-                            <a href=""><img src="/assets/images/Linkedin_5.svg" alt="Linkedin_5" height="50"
-                                width="50"></a>
-                            <a href=""><img src="/assets/images/Twitter_5.svg" alt="Twitter" height="50"
-                                width="50"></a>
-                            <a href=""><img src="/assets/images/Youtube_5.svg" alt="Youtube" height="50"
-                                width="50"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="copyright">
-                ©Copyright - Todos os direitos reservados
-            </div>
-
-        </div>
+    <footer class="links">
+        <a href="https://github.com/alanalv3s" target="_blank">GitHub</a>
+        <a href="https://twitter.com/AlanAlv3s" target="_blank">Twitter</a>
+        <a href="https://www.linkedin.com/in/alan-alves-silva" target="_blank">LinkedIn</a>
+        <a href="mailto: alanams97@gmail.com" target="_blank">Email</a>
+        <a href="tel:+5511975036861">Telefone</a>
     </footer>
 
 </body>
