@@ -1,0 +1,439 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.container {
+    display: flex;
+    width: 990px;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+ul, li, a {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: #727272;
+}
+
+nav .active a, nav a:hover {
+    background-color: #39aae1;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    background-image: url('../assets/images/img1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.banner-headline {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-headline h1 {
+    color: white;
+    font-size: 70px;
+    line-height: 58px;
+    text-shadow: 1px 1px 3px #222;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+}
+
+.banner-headline h2 {
+    color: white;
+    font-size: 24px;
+    line-height: 34px;
+    text-shadow: 1px 1px 3px #222;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+    margin-top: 30px;
+}
+
+.banner-options {
+    height: 210px;
+    display: flex;
+}
+
+.card1, .card2, .card3 {
+    flex: 1;
+    color: #fff;
+    padding: 20px;
+}
+
+.card1 {
+    background-color: #39aae1;
+}
+
+.card2 {
+    background-color: #0079c1;
+}
+
+.card3 {
+    background-color: #00478a;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-desc {
+    font-size: 14px;
+    margin: 18px auto;
+}
+
+.banner-options a {
+    display: inline-block;
+    border: 1px solid #FFF;
+    padding: 8px;
+    font-size: 16px;
+    color: white;
+}
+
+.card-hours {
+    display: flex;
+    margin: 8px 0px 8px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.253);
+    padding: 8px 0px;
+    font-size: 14px;
+}
+.card-hours span {
+    flex: 1;
+    text-align: right;
+}
+
+.general {
+    display: flex;
+    justify-content: center;
+}
+
+.general section {
+    flex: 2;
+}
+
+.general aside {
+    flex: 1;
+}
+
+.widget-title {
+    margin: 30px 0 20px
+}
+
+.widget-title-text {
+    color: #000;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.widget-title-bar {
+    width: 60px;
+    height: 2px;
+    background-color: #36a9e1;
+    margin-top: 8px;
+}
+
+.news {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+.news .date {
+    display: flex;
+}
+
+.news .posted-at {
+    background-color: #00478a;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    margin-right: 2px;
+}
+
+.news .comments {
+    background-color: #39aae1;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.news .thumb {
+    margin-top: 30px;
+}
+
+.news .thumb img {
+    width: 100%;
+    height: auto;
+}
+
+.news .title {
+    margin: 25px 0;
+    color: black;
+    font-size: 24px;
+}
+
+.news .resume {
+    color: #5c5c5c;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.department {
+    flex: 1;
+    background-color: #0079c1;
+    padding: 70px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.appointment-title {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 12px;
+}
+
+.appointment-contact {
+    display: flex;
+}
+
+.contact {
+    padding: 12px;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.contact:first-of-type {
+    border-top: 1px solid #bdbdbd;
+}
+
+.contact a {
+    display: flex;
+    align-items: center;
+    color: #00478a;
+}
+
+.contact i {
+    flex: 1;
+    color: #00478a;
+}
+
+.contact span {
+    flex: 6;
+}
+
+footer {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+.f-menu {
+    display: flex;
+    flex: 1;
+}
+
+.f-card1, .f-card2, .f-card3 {
+    flex: 1;
+    color: white;
+    padding: 20px;
+}
+
+.f-card1 {
+    background-color: #39aae1;
+}
+
+.f-card2 {
+    background-color: #0079c1;
+}
+
+.f-card3 {
+    background-color: #00478a;
+}
+
+.f-contents {
+    display: flex;
+    color: white;
+}
+
+.f-content {
+    flex: 1;
+    padding-right: 1%;
+}
+
+footer .widget-title-text {
+    color: white;
+}
+
+footer .copyright {
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 14px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
+
+footer .widget-body {
+    color: #5c5c5c;
+}
+
+footer .adress {
+    display: flex;
+    font-size: 14px;
+}
+
+footer .adress span, footer .adress a {
+    flex: 1;
+    text-align: right;
+}
+
+footer .widget-body p {
+    color: white;
+    font-size: 14px;
+}
+
+footer .widget-body p span {
+    color: #39aae1;
+    font-size: 13px;
+}
+
+footer .social-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 120px;
+}
+
+/* RESPONSIVE */
+
+.menu-mobile,
+.menu-mobile i{
+    display: none;
+}
+
+@media (max-width:600px) {
+    .banner {
+        height: auto;
+    }
+    .banner-headline {
+        padding: 20px;
+    }
+    .banner-headline h1 {
+        font-size: 55px;
+    }
+    .banner-headline h2 {
+        font-size: 17px;
+    }
+    .banner-options {
+        height: auto;
+        flex-direction: column;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .general section,
+    .general aside,
+    .f-contents {
+        padding: 20px;
+    }
+    .f-menu,
+    .f-contents {
+        flex-direction: column;
+    }
+
+    header .container {
+        flex-direction: row;
+    }
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: white;
+    }
+    header {
+        height: auto;
+    }
+    .logo {
+        padding-left: 20px;
+    }
+    .menu-mobile,
+    .menu-mobile i{ 
+        display: block;
+    }
+    .menu-mobile {
+        margin: 32px 20px 32px 0px;
+    }
+    .menu-mobile i {
+        font-size: 36px;
+        color: #36a9e1;
+        padding: 6px;
+        border: 1px solid #39a9e14b;
+        border-radius: 50px;
+        box-shadow: 1px 2px 8px #00478a7c;
+        cursor: pointer;
+    }
+    nav .active a, nav a:hover {
+        border-radius: 0;
+    }
+}
