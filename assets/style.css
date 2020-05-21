@@ -363,6 +363,10 @@ footer .social-body {
     height: 120px;
 }
 
+footer .social-body img {
+    border-radius: 4px;
+}
+
 /* RESPONSIVE */
 
 .menu-mobile,
