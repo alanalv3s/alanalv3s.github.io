@@ -230,6 +230,10 @@ footer.links a {
     border-bottom: none;
 }
 
+footer img {
+    height: 48px;
+}
+
 footer img:hover {
     box-shadow: 0px 0px 8px #53E4A4;
     border-radius: 50%;
