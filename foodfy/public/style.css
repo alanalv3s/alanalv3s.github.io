@@ -1,0 +1,180 @@
+@import "https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    border: none;
+    color: black;
+    width: auto;
+}
+html, body {
+    min-height: 100vh;
+}
+body {
+    font-family: 'Roboto', 'sans-serif';
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    width: 90%;
+    max-width: 940px;
+    margin: 0 auto;
+    position: relative;
+    min-height: 100%;
+}
+header {
+    background-color: #f9f9f9;
+    padding: 16px 0;
+}
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.links {
+    margin: 0 10%;
+}
+.links a {
+    margin-left: 24px;
+}
+.links a:hover {
+    color: #D54F44;
+    transition: color 200ms;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fbdfdb;
+    border-radius: 16px;
+    height: 33.2%;
+}
+
+.b-text {
+    width: 35%;
+}
+.b-text h1 {
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 8px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+.b-text p {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 28px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.b-chef {
+    margin-top: 6% ;
+}
+.m-title h1{
+    margin: 32px 0 16px;
+    font-size: 24px;
+}
+.r-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+}
+.card {
+    width: 300px;
+    cursor: pointer;
+}
+.card-img img{
+    width: 300px;
+    height: 140px;
+    border-radius: 16px;
+}
+
+.card-content h2 {
+    font-size: 18px;
+    line-height: 21px;
+    color: #111;
+    font-weight: normal;
+}
+.card-content p {
+    font-size: 14px;
+    color: #777;
+    line-height: 16px;
+}
+
+footer {
+    text-align: center;
+    padding: 24px;
+    margin-top: 32px;
+    background-color: #eeeeee;
+    width: 100%;
+}
+footer p {
+    font-size: 14px;
+    color: #888;
+}
+
+.about h1, h2{
+    padding: 12px 0;
+}
+.about p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #444;
+}
+
+/* MODAL */
+.modal-base {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+.modal {
+    background-color: white;
+    width: 660px;
+    height: auto;
+    margin: 25vh auto;
+    text-align: center;
+    position: relative;
+    border-radius: 16px;
+}
+.modal .close-modal {
+    color: black;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    cursor: pointer;
+}
+.modal .close-modal:hover {
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+}
+.modal img {
+    width: 600px;
+    height: 200px;
+    border-radius: 16px;
+    margin-top: 32px;
+}
+.modal_card-content h2 {
+    font-size: 24px;
+    line-height: 28px;
+    color: #111;
+}
+.modal_card-content p {
+    font-size: 18px;
+    line-height: 21px;
+    color: #777;
+    padding-bottom: 32px;
+}
+
+/* MODAL.ACTIVE */
+.modal-base.active {
+    opacity: 1;
+    visibility: visible;
+}
