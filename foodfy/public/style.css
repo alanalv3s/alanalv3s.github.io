@@ -157,7 +157,7 @@ header {
     width: 35%;
 
     z-index: 100;
-    animation: slideLeft 2000ms ease-in-out forwards;
+    animation: slideLeft 2s ease-in-out forwards;
 }
 
 .b-text h1 {
