@@ -183,4 +183,5 @@ footer p {
 .modal-base.active {
     opacity: 1;
     visibility: visible;
+    transition: 0.5s;
 }
